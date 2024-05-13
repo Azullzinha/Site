@@ -1,0 +1,39 @@
+body {
+  background-color: #FFFFFF;
+}
+
+#conteiner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 40px;
+  font-family: cursive;
+}
+section{
+  align-content: top;
+}
+
+#meuConteudo {
+  align-content:center;
+  width: auto;
+}
+#meuConteudo img{
+  width: 500px;
+}
+
+#botao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+button {
+  font-size: 50px;
+  background-color: #8F1010;
+  color: #FFFFFF;
+  border-color: #8F1010;
+  border-radius: 40px;
+  padding: 20px;
+  font-family: cursive;
+}
